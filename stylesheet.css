@@ -1,0 +1,253 @@
+body {
+    font: Roboto;
+}
+
+.padding {
+    padding-left: 150px;
+    padding-right:150px;
+}
+.flex-container-1st {
+    height: 40px;
+    width: auto;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   /* flex-wrap: wrap; */
+    gap: 20px;
+}
+.flex-container-2nd {
+    height: 250px;
+    width: auto;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   /* flex-wrap: wrap; */
+    gap: 20px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.header-2nd-left {
+    background: none;
+    flex: 1 1 0;
+    height: 250px;
+    min-width: 500px;
+}
+
+.header-2nd-right {
+    background: none;
+    flex: 1 1 0;
+    height: 250px;
+    
+}
+
+.container-2nd {
+    padding-top: 50px;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.style {
+    font: roboto;
+}
+
+.header-1st-logo {
+    background: none;
+    flex: 0 1 auto;
+    margin-right: auto;
+    
+}
+
+.header-1st-links {
+    background: none;
+    border: 3px;
+    flex: 0 1 auto;
+    margin-left: 0;
+}
+
+.color-white {
+    color:white
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 6px;
+    border: none;
+}
+
+.flex-container-3rd {
+    height: 60px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* flex-wrap: wrap; */
+    padding-bottom: 15px;
+    padding-top: 15px;
+    min-width: 200px
+}
+
+.flex-container-4th {
+    height: 150px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 30px;
+  
+    gap: 40px;
+}
+
+.picture-box {
+    background: none;
+    border-radius: 8px;
+    flex: 1 1 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #3882f6;
+    border-style: solid;
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+.flex-container-4th {
+    height: 150px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    padding-top: 0px;
+  
+    gap: 40px;
+}
+
+.picture-cap {
+    background: none;
+    flex: 1 1 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+
+.flex-container-5th {
+    height: 60px;
+    width: auto;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* flex-wrap: wrap; */
+    padding-bottom: 0px;
+    padding-top: 55px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.flex-container-6th {
+    height: 60px;
+    width: auto;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   /* flex-wrap: wrap; */
+    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.flex-container-7th {
+    height: 150px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* flex-wrap: wrap; */
+    padding-bottom: 0px;
+    padding-top: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.green-box {
+    background-color: #3882f6;
+    flex: 1 1 auto;
+    height: 80px;
+    padding-left: 45px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.second-button {
+    background: #3882F6;
+    flex: 1 1 auto;
+    height: 80px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin-left: auto;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+
+.second-button-style {
+    background-color: #3882f6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 6px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+
+
+}
+
+.flex-container-last {
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    display: flex;
+}
+
+.copy-right {
+    flex: 1 1 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    color: white;
+
+}
